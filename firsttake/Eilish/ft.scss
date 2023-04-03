@@ -1,7 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sen:wght@400;700;800&display=swap');
+
+
+:root{
+    --Primary-Color: #66fcf1;
+}
+
 body{
     background-color: #03293b;
     color: white;
+    margin: 0;
+    font-family: "sen";
+    letter-spacing: 1px;
 }
+
 .navbar{
+    margin: 0;
     background-color: #2f5a6f;
+    padding: 1.9em 0.7em;
+
+    .space{
+        display: flex;
+        margin: 0;
+        column-gap: 2.5em;
+        align-items: center;
+
+        .warpped{
+            display: flex;
+            justify-content: center;
+            column-gap: 3.6em;
+            height: 3em;
+
+            .navbtn{
+                background-color: #2f5a6f;
+                border-style: solid;
+                border-color: var(--Primary-Color);
+                color: var(--Primary-Color);
+                font-size: 17.6px;
+                padding: 14px 31px;
+                padding-bottom: 33px;
+                border-radius: 30px;
+                letter-spacing: 0.6px;
+                font-weight: lighter;
+            }
+        }
+
+        .butt{
+            background-color: #2f5a6f;
+            border-style: solid;
+            border-color: rgba(146,146,146,0.23);
+            border-width: 1px;
+            height: 2.8em;
+            justify-content: center;
+            margin-top: 7px;
+            padding-bottom: 4px;
+            
+        }
+
+        .logo{
+
+            a{
+                display: flex;
+                column-gap: 14px;
+                
+
+                img{
+                    width: 38px;
+                    height: 69px;
+                    align-self: baseline;
+                }
+                h5{
+                    font-family: "poppins";
+                    margin: 0;
+                    padding-top: 18%;
+                    font-size: 28px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    
+                }
+            }
+        }
+        
+        nav{
+            display: none;
+       
+            ul{
+            display: flex;
+            list-style: none;
+            
+            li{
+                margin: 5px;
+            }
+          }
+        }
+    }
+}
+
+section{
+    padding: 1em;
+}
+
+rect{
+    color: aliceblue;
+    fill: aliceblue;
 }
