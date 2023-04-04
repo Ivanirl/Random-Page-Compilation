@@ -20,15 +20,15 @@ body {
 .navbar .space {
   display: flex;
   margin: 0;
-  -moz-column-gap: 2.5em;
-       column-gap: 2.5em;
+  -moz-column-gap: 3em;
+       column-gap: 3em;
   align-items: center;
 }
 .navbar .space .warpped {
   display: flex;
   justify-content: center;
-  -moz-column-gap: 3.6em;
-       column-gap: 3.6em;
+  -moz-column-gap: 3em;
+       column-gap: 3em;
   height: 3em;
 }
 .navbar .space .warpped .navbtn {
@@ -42,6 +42,11 @@ body {
   border-radius: 30px;
   letter-spacing: 0.6px;
   font-weight: lighter;
+  cursor: pointer;
+}
+.navbar .space .warpped .navbtn:hover {
+  background-color: var(--Primary-Color);
+  color: #03293b;
 }
 .navbar .space .butt {
   background-color: #2f5a6f;
@@ -52,6 +57,7 @@ body {
   justify-content: center;
   margin-top: 7px;
   padding-bottom: 4px;
+  cursor: pointer;
 }
 .navbar .space .logo a {
   display: flex;
@@ -62,6 +68,7 @@ body {
   width: 38px;
   height: 69px;
   align-self: baseline;
+  cursor: pointer;
 }
 .navbar .space .logo a h5 {
   font-family: "poppins";
@@ -70,6 +77,7 @@ body {
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .navbar .space nav {
   display: none;
@@ -89,4 +97,21 @@ section {
 rect {
   color: aliceblue;
   fill: aliceblue;
+}
+
+.firstBody {
+  margin-top: 2.6em;
+}
+.firstBody .space h1 {
+  font-size: 3.2em;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+.firstBody .space h1 span {
+  color: var(--Primary-Color);
+}
+.firstBody .space h3 {
+  font-weight: lighter;
+  letter-spacing: 0;
+  line-height: 30px;
 }/*# sourceMappingURL=ft.css.map */

@@ -22,13 +22,13 @@ body{
     .space{
         display: flex;
         margin: 0;
-        column-gap: 2.5em;
+        column-gap: 3em;
         align-items: center;
 
         .warpped{
             display: flex;
             justify-content: center;
-            column-gap: 3.6em;
+            column-gap: 3em;
             height: 3em;
 
             .navbtn{
@@ -42,6 +42,12 @@ body{
                 border-radius: 30px;
                 letter-spacing: 0.6px;
                 font-weight: lighter;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: var(--Primary-Color);
+                    color: #03293b;
+                }
             }
         }
 
@@ -54,6 +60,7 @@ body{
             justify-content: center;
             margin-top: 7px;
             padding-bottom: 4px;
+            cursor: pointer;
             
         }
 
@@ -62,12 +69,13 @@ body{
             a{
                 display: flex;
                 column-gap: 14px;
-                
+                //cursor: pointer;
 
                 img{
                     width: 38px;
                     height: 69px;
                     align-self: baseline;
+                    cursor: pointer;
                 }
                 h5{
                     font-family: "poppins";
@@ -76,7 +84,7 @@ body{
                     font-size: 28px;
                     font-weight: bold;
                     letter-spacing: 1px;
-                    
+                    cursor: pointer;
                 }
             }
         }
@@ -103,4 +111,28 @@ section{
 rect{
     color: aliceblue;
     fill: aliceblue;
+}
+
+.firstBody{
+
+    margin-top: 2.6em;
+    .space{
+
+        h1{
+            font-size: 3.2em;
+            line-height: 70px;
+            //width: 8em;
+            margin-bottom: 0;
+
+            span{
+                color: var(--Primary-Color);
+            }
+        }
+
+        h3{
+            font-weight: lighter;
+            letter-spacing: 0;
+            line-height: 30px;
+        }
+    }
 }
