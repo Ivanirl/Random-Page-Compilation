@@ -91,7 +91,7 @@ body {
 }
 
 section {
-  padding: 1em;
+  padding: 1em 1em 1em 0.5em;
 }
 
 rect {
@@ -102,16 +102,37 @@ rect {
 .firstBody {
   margin-top: 2.6em;
 }
-.firstBody .space h1 {
+.firstBody .spaceycasey {
+  padding-bottom: 3em;
+}
+.firstBody .spaceycasey h1 {
   font-size: 3.2em;
   line-height: 70px;
   margin-bottom: 0;
 }
-.firstBody .space h1 span {
+.firstBody .spaceycasey h1 span {
   color: var(--Primary-Color);
 }
-.firstBody .space h3 {
+.firstBody .spaceycasey h3 {
   font-weight: lighter;
   letter-spacing: 0;
   line-height: 30px;
+  margin-bottom: 2em;
+}
+
+.action {
+  background-color: var(--Primary-Color);
+  border-style: none;
+  font-size: 1.01em;
+  border-radius: 30px;
+  padding: 15px 35px;
+  letter-spacing: 1px;
+}
+
+.columnsofzeus {
+  padding-top: 3em;
+}
+
+.neymar {
+  height: 386.562px;
 }/*# sourceMappingURL=ft.css.map */
