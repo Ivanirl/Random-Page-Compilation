@@ -245,7 +245,7 @@ rect{
     .space{
         padding: 2.1em;
         padding-top: 2em;
-        padding-right: 1.7em;
+        padding-right: 3em;
 
         .leftdiv{
 
@@ -257,7 +257,7 @@ rect{
             }
 
             h1{
-                font-size: 2.42em;
+                font-size: 2.5em;
                 margin-top: 32px;
                 line-height: 1.42em;
                 font-weight: bolder;
@@ -265,8 +265,11 @@ rect{
             }
 
             p{
-                font-size: 1.11em;
+                color: #f7f7f7;
+                font-size: 1em;
                 letter-spacing: 0;
+                line-height: 1.7em;
+                width: 285px;
             }
         }
     }
