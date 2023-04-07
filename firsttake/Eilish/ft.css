@@ -204,10 +204,12 @@ rect {
   background-color: #041c2d;
   padding: 2.3em;
   padding-top: 6em;
+  padding-right: 2em;
 }
 .thirdBody .space {
   padding: 2.1em;
   padding-top: 2em;
+  padding-right: 1.7em;
 }
 .thirdBody .space .leftdiv .abt {
   color: var(--Primary-Color);
@@ -220,4 +222,9 @@ rect {
   margin-top: 32px;
   line-height: 1.42em;
   font-weight: bolder;
+  letter-spacing: 0;
+}
+.thirdBody .space .leftdiv p {
+  font-size: 1.11em;
+  letter-spacing: 0;
 }/*# sourceMappingURL=ft.css.map */
