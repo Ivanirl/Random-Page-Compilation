@@ -142,6 +142,7 @@ rect {
   padding-top: 3em;
   padding-left: 1.9em;
   padding-right: 1.9em;
+  margin-bottom: 10em;
 }
 .secondBody .smallerspace1 {
   padding-bottom: 1em;
@@ -197,4 +198,26 @@ rect {
   font-weight: 600;
   color: var(--Primary-Color);
   margin-bottom: 0;
+}
+
+.thirdBody {
+  background-color: #041c2d;
+  padding: 2.3em;
+  padding-top: 6em;
+}
+.thirdBody .space {
+  padding: 2.1em;
+  padding-top: 2em;
+}
+.thirdBody .space .leftdiv .abt {
+  color: var(--Primary-Color);
+  font-size: 1.1em;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+.thirdBody .space .leftdiv h1 {
+  font-size: 2.42em;
+  margin-top: 32px;
+  line-height: 1.42em;
+  font-weight: bolder;
 }/*# sourceMappingURL=ft.css.map */
