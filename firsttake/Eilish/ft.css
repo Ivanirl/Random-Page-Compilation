@@ -230,4 +230,12 @@ rect {
   letter-spacing: 0;
   line-height: 1.7em;
   width: 285px;
+}
+.thirdBody .space .right {
+  margin-top: 4em;
+}
+.thirdBody .space .right img {
+  width: 365px;
+  max-width: 100%;
+  border-radius: 2.6em;
 }/*# sourceMappingURL=ft.css.map */
