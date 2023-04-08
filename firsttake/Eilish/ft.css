@@ -242,4 +242,15 @@ rect {
   width: 365px;
   max-width: 100%;
   border-radius: 2.6em;
+}
+
+.fourthBody {
+  text-align: center;
+  padding: 0;
+}
+.fourthBody .space {
+  padding: 7em 3em;
+}
+.fourthBody .space .divy {
+  padding: 2em;
 }/*# sourceMappingURL=ft.css.map */
