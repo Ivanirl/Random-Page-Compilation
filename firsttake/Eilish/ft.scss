@@ -144,7 +144,7 @@ rect{
 .action{
     background-color: var(--Primary-Color);
     border-style: none;
-    font-size: 1.01em;
+    font-size: 1.04em;
     border-radius: 30px;
     padding: 15px 35px;
     letter-spacing: 1px;
@@ -294,25 +294,43 @@ rect{
 .fourthBody{
     text-align: center;
     padding: 0;
+    background-image: url("../resources/Handpressin\ phone.jpg");
+    border-image-repeat: stretch;
+    object-fit: cover;
+    object-position: 45% 35%;
 
     .space{
-        padding: 7em 3em;
+        padding: 9em 3em;
+        background-color: #2f5a67;
+        opacity: 0.9;
 
         .divy{
-            padding: 2em;
+            padding: 2em 0.5em;
+
 
             div{
 
                 p{
+                    font-size: 1.1em;
+                    color: var(--Primary-Color);
 
                 }
     
                 h1{
-    
+                    font-size: 3em;
+                    text-align: center;
+                    margin: 0;
+                    line-height: 1.3em;
                 }
     
                 h3{
-                    
+                    font-size: 1.7em;
+                    margin-top: 0.6em;
+                }
+
+                button{
+                    margin-top: 1.4em;
+                    text-decoration-style: solid;
                 }
             }
         }
