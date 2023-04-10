@@ -304,8 +304,14 @@ rect {
 .fifthBody .space .leftside .overlay {
   background-color: #2f5a6f;
   opacity: 0.7;
-  padding: 15em 9em;
+  padding: 15em 8.87em;
 }
 .fifthBody .space .leftside .overlay img {
   width: 4.8em;
+}
+.fifthBody .space .rightside {
+  padding-top: 2.4em;
+}
+.fifthBody .space .rightside div {
+  padding-top: 2.5em;
 }/*# sourceMappingURL=ft.css.map */

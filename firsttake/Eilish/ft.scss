@@ -351,20 +351,26 @@ rect{
             background-position: 65% 54%;
             background-size: cover;
             display: flex;
-            //padding: 12em 7em;
             justify-content: center;
-            //align-self: center;
             width: fit-content;
             height: fit-content;
 
             .overlay{
                 background-color: #2f5a6f;
                 opacity: 0.7;
-                padding: 15em 9em;
+                padding: 15em 8.87em;
             
                 img{
                    width: 4.8em;
                 }
+            }
+        }
+
+        .rightside{
+            padding-top: 2.4em;
+
+            div{
+                padding-top: 2.5em;
             }
         }
     }
