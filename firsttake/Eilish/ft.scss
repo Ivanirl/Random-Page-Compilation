@@ -339,6 +339,7 @@ rect{
 }
 
 .fifthBody{
+    background-color: #041c2d;
     padding: 0;
 
     .space{
@@ -346,14 +347,24 @@ rect{
 
         .leftside{
             background-image: url(../resources/handholdingphoneforvideo.jpg);
-            object-fit: contain;
+            object-position: 65% 54%;
+            background-position: 65% 54%;
+            background-size: cover;
             display: flex;
-            padding: 12em 7em;
+            //padding: 12em 7em;
             justify-content: center;
-            align-self: center;
+            //align-self: center;
+            width: fit-content;
+            height: fit-content;
 
-            img{
-                width: 4.8em;
+            .overlay{
+                background-color: #2f5a6f;
+                opacity: 0.7;
+                padding: 15em 9em;
+            
+                img{
+                   width: 4.8em;
+                }
             }
         }
     }
