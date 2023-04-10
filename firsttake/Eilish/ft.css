@@ -279,4 +279,20 @@ rect {
 .fourthBody .space .divy div button {
   margin-top: 1.4em;
   text-decoration-style: solid;
+}
+
+.fifthBody {
+  padding: 0;
+}
+.fifthBody .space {
+  padding: 6.5em 2em;
+}
+.fifthBody .space .leftside {
+  display: flex;
+  padding: 8em 7em;
+  justify-content: center;
+  align-self: center;
+}
+.fifthBody .space .leftside img {
+  width: 4.8em;
 }/*# sourceMappingURL=ft.css.map */

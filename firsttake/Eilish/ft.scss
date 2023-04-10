@@ -337,3 +337,22 @@ rect{
     }
 
 }
+
+.fifthBody{
+    padding: 0;
+
+    .space{
+        padding: 6.5em 2em;
+
+        .leftside{
+            display: flex;
+            padding: 8em 7em;
+            justify-content: center;
+            align-self: center;
+
+            img{
+                width: 4.8em;
+            }
+        }
+    }
+}
