@@ -288,6 +288,9 @@ rect {
   padding: 6.5em 2em;
 }
 .fifthBody .space .leftside {
+  background-image: url(../resources/handholdingphoneforvideo.jpg);
+  -o-object-fit: contain;
+     object-fit: contain;
   display: flex;
   padding: 12em 7em;
   justify-content: center;

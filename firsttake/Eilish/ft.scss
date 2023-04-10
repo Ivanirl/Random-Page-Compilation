@@ -345,6 +345,8 @@ rect{
         padding: 6.5em 2em;
 
         .leftside{
+            background-image: url(../resources/handholdingphoneforvideo.jpg);
+            object-fit: contain;
             display: flex;
             padding: 12em 7em;
             justify-content: center;
