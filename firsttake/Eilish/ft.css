@@ -313,5 +313,13 @@ rect {
   padding-top: 2.4em;
 }
 .fifthBody .space .rightside div {
-  padding-top: 2.5em;
+  padding: 2.5em;
+}
+.fifthBody .space .rightside div p {
+  font-size: 1.18em;
+}
+.fifthBody .space .rightside div .one {
+  color: var(--Primary-Color);
+  letter-spacing: 3px;
+  margin-top: 0;
 }/*# sourceMappingURL=ft.css.map */
