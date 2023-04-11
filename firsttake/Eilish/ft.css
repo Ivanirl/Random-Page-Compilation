@@ -346,8 +346,9 @@ rect {
 .sixthBody .space .topbitch {
   display: flex;
   align-items: center;
-  -moz-column-gap: 0.1em;
-       column-gap: 0.1em;
+  -moz-column-gap: 2.4em;
+       column-gap: 2.4em;
+  margin-bottom: 3em;
 }
 .sixthBody .space .topbitch .leftbitch P {
   color: var(--Primary-Color);
@@ -360,8 +361,9 @@ rect {
 }
 .sixthBody .space .topbitch .leftbitch h1 {
   display: block;
-  width: 8em;
+  width: 7em;
   margin: 0;
+  margin-top: 0.3em;
   font-size: 1.75em;
 }
 .sixthBody .space .topbitch button {
@@ -370,6 +372,15 @@ rect {
   width: -moz-fit-content;
   width: fit-content;
 }
+.sixthBody .space .bottombitch {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  -moz-column-gap: 22px;
+       column-gap: 22px;
+  row-gap: 22px;
+}
 .sixthBody .space .bottombitch .box2 {
   background-color: #041c2d;
+  padding: 2.5em;
 }/*# sourceMappingURL=ft.css.map */

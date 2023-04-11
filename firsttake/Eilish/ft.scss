@@ -414,9 +414,12 @@ rect{
         .topbitch{
             display: flex;
             align-items: center;
-            column-gap: 0.1em;
+            column-gap: 2.4em;
+            margin-bottom: 3em;
+            
 
             .leftbitch{
+                
 
                 P{
                     color: var(--Primary-Color);
@@ -429,8 +432,9 @@ rect{
 
                 h1{
                     display: block;
-                    width: 8em;
+                    width: 7em;
                     margin: 0;
+                    margin-top: 0.3em;
                     font-size: 1.75em;
                 }
 
@@ -443,10 +447,15 @@ rect{
         }
     
         .bottombitch{
-            
+            display: flex;
+            flex: row;
+            flex-wrap: wrap;
+            column-gap: 22px;
+            row-gap: 22px;
             .box2{
 
                 background-color: #041c2d;
+                padding: 2.5em;
             }
         }
     }
