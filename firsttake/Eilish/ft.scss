@@ -343,7 +343,7 @@ rect{
     padding: 0;
 
     .space{
-        padding: 6.5em 2em;
+        padding: 6.5em 1.89em;
 
         .leftside{
             background-image: url(../resources/handholdingphoneforvideo.jpg);
@@ -386,6 +386,18 @@ rect{
                     font-size: 2.5em;
                     letter-spacing: 0;
                     line-height: 1.39em;
+                }
+
+                .two{
+                    margin-top: 1.7em;
+                    font-size: 1.14em;
+                    letter-spacing: -1;
+                    line-height: 1.6em;
+                    font-weight: 400;
+                }
+
+                button{
+                    font-size: 17.6px;
                 }
             }
         }
