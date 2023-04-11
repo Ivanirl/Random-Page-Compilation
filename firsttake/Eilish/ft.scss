@@ -414,18 +414,24 @@ rect{
         .topbitch{
             display: flex;
             align-items: center;
-            column-gap: 2px;
+            column-gap: 0.1em;
 
             .leftbitch{
 
                 P{
                     color: var(--Primary-Color);
-                    display: inline-block;
+                    display: block;
+                    width: fit-content;
+                    margin: 0;
+                    font-size: 1.1em;
+                    letter-spacing: 4px;
                 }
 
                 h1{
-                    display: inline-block;
-                    width: 4em;
+                    display: block;
+                    width: 8em;
+                    margin: 0;
+                    font-size: 1.75em;
                 }
 
             }
