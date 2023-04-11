@@ -412,8 +412,28 @@ rect{
     .space{
 
         .topbitch{
+            display: flex;
+            align-items: center;
+            column-gap: 2px;
 
+            .leftbitch{
 
+                P{
+                    color: var(--Primary-Color);
+                    display: inline-block;
+                }
+
+                h1{
+                    display: inline-block;
+                    width: 4em;
+                }
+
+            }
+
+            button{
+                height: fit-content;
+                width: fit-content;
+            }
         }
     
         .bottombitch{

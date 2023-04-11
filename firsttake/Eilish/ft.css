@@ -343,6 +343,26 @@ rect {
   background-color: #2f5a6f;
   padding: 5em 1em;
 }
+.sixthBody .space .topbitch {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 2px;
+       column-gap: 2px;
+}
+.sixthBody .space .topbitch .leftbitch P {
+  color: var(--Primary-Color);
+  display: inline-block;
+}
+.sixthBody .space .topbitch .leftbitch h1 {
+  display: inline-block;
+  width: 4em;
+}
+.sixthBody .space .topbitch button {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 .sixthBody .space .bottombitch .box2 {
   background-color: #041c2d;
 }/*# sourceMappingURL=ft.css.map */
