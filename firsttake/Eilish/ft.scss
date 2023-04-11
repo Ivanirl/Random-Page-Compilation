@@ -4,7 +4,13 @@
 
 :root{
     --Primary-Color: #66fcf1;
+    --Primary-Color2: #041c2d;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 body{
     background-color: #03293b;
@@ -206,7 +212,7 @@ rect{
 
             .box2{
                 padding: 60px;
-                background-color: #041c2d;
+                background-color: var(--Primary-Color2);
 
                 h3{
                     font-size: 1.76em;
@@ -454,9 +460,13 @@ rect{
             row-gap: 22px;
             .box2{
 
-                background-color: #041c2d;
+                background-color: var(--Primary-Color2);
                 padding: 2.5em;
             }
         }
     }
+}
+
+.seventhBodyP1{
+    background-color: var(--Primary-Color2);
 }
