@@ -337,4 +337,12 @@ rect {
 }
 .fifthBody .space .rightside div button {
   font-size: 17.6px;
+}
+
+.sixthBody {
+  background-color: #2f5a6f;
+  padding: 5em 1em;
+}
+.sixthBody .space .bottombitch .box2 {
+  background-color: #041c2d;
 }/*# sourceMappingURL=ft.css.map */
