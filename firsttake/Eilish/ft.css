@@ -322,4 +322,9 @@ rect {
   color: var(--Primary-Color);
   letter-spacing: 3px;
   margin-top: 0;
+}
+.fifthBody .space .rightside div h1 {
+  font-size: 2.5em;
+  letter-spacing: 0;
+  line-height: 1.39em;
 }/*# sourceMappingURL=ft.css.map */
