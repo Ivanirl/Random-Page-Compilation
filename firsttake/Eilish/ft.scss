@@ -469,4 +469,33 @@ rect{
 
 .seventhBodyP1{
     background-color: var(--Primary-Color2);
+    padding: 4em 2.9em;
+
+    .space{
+
+        .hs{
+
+            .bs{
+                padding: 1.26em 1.26em 1.26em 0;
+
+                h3{
+                    font-size: 1.5em;
+                    font-weight: 500;
+                    letter-spacing: 0;
+                }
+                
+                p{
+                    margin-top: 1.69em;
+                    margin-bottom: 0;
+                    font-size: 1.2em;
+                    font-weight: 400;
+                    letter-spacing: -0.9;
+                }
+
+                button{
+                    margin-top: 1.89em ;
+                }
+            }
+        }
+    }
 }

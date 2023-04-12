@@ -392,4 +392,23 @@ rect {
 
 .seventhBodyP1 {
   background-color: var(--Primary-Color2);
+  padding: 4em 2.9em;
+}
+.seventhBodyP1 .space .hs .bs {
+  padding: 1.26em 1.26em 1.26em 0;
+}
+.seventhBodyP1 .space .hs .bs h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.seventhBodyP1 .space .hs .bs p {
+  margin-top: 1.69em;
+  margin-bottom: 0;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: -0.9;
+}
+.seventhBodyP1 .space .hs .bs button {
+  margin-top: 1.89em;
 }/*# sourceMappingURL=ft.css.map */
