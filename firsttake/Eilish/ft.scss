@@ -605,6 +605,9 @@ rect{
                         margin: 0 8px;
                         align-items: center;
 
+                        a{
+                            letter-spacing: 1px;
+                        }
                         img{
                             width: 20px;
                             height: 20px;
@@ -632,5 +635,12 @@ rect{
         background-size: contain;
     }
         
+    }
+}
+
+.seventhBodyP2{
+
+    .spacial{
+        display: flex;
     }
 }

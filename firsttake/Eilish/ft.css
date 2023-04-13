@@ -509,6 +509,9 @@ rect {
   margin: 0 8px;
   align-items: center;
 }
+.seventhBodyP1 .space .hs .vs .QC div a {
+  letter-spacing: 1px;
+}
 .seventhBodyP1 .space .hs .vs .QC div img {
   width: 20px;
   height: 20px;
@@ -524,4 +527,8 @@ rect {
   height: 20px;
   background-image: url(../resources/service-4.png);
   background-size: contain;
+}
+
+.seventhBodyP2 .spacial {
+  display: flex;
 }/*# sourceMappingURL=ft.css.map */
