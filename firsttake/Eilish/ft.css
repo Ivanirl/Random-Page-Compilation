@@ -398,9 +398,9 @@ rect {
   display: flex;
   flex: row;
   flex-wrap: wrap;
-  -moz-column-gap: 22px;
-       column-gap: 22px;
-  row-gap: 22px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 32px;
   box-sizing: border-box;
 }
 .seventhBodyP1 .space .hs .bs {
@@ -437,6 +437,7 @@ rect {
 .seventhBodyP1 .space .hs .vs ul {
   margin-left: 0.8em;
   padding-left: 0;
+  margin-top: 2em;
 }
 .seventhBodyP1 .space .hs .vs ul li {
   display: list-item;
@@ -448,16 +449,48 @@ rect {
   letter-spacing: -1px;
   font-weight: 400;
   text-decoration-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .seventhBodyP1 .space .hs .vs ul li a {
   padding: 0.35em 0;
   line-height: 1.9em;
 }
-.seventhBodyP1 .space .hs .vs ul li:before {
+.seventhBodyP1 .space .hs .vs .list2 {
+  margin-left: 0;
+}
+.seventhBodyP1 .space .hs .vs .list2 li {
+  padding-left: 0.1em;
+  display: block;
+  margin-bottom: 0.9em;
+}
+.seventhBodyP1 .space .hs .vs .list2 li a {
+  display: block;
+  line-height: 1em;
+  font-size: 1em;
+}
+.seventhBodyP1 .space .hs .vs .list2 li time {
+  margin-bottom: 3em;
+  position: relative;
+  padding-left: 1.2em;
+  font-size: 0.8em;
+}
+.seventhBodyP1 .space .hs .vs .list2 li time:before {
+  content: "";
+  position: absolute;
+  left: -0.1em;
+  top: 1px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../resources/service-4.png);
+  background-size: contain;
+}
+
+.list1 li:before {
   content: "";
   position: absolute;
   left: -0.6em;
-  top: 0.4em;
+  top: 0.65em;
   width: 20px;
   height: 20px;
   background-image: url(../resources/service-4.png);
