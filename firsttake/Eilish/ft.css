@@ -396,7 +396,7 @@ rect {
 }
 .seventhBodyP1 .space .hs {
   display: flex;
-  flex: row;
+  flex-direction: row;
   flex-wrap: wrap;
   -moz-column-gap: 32px;
        column-gap: 32px;
@@ -488,17 +488,32 @@ rect {
 .seventhBodyP1 .space .hs .vs .QC {
   font-size: 1.03em;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  align-content: space-between;
   row-gap: 20px;
   justify-content: center;
-  box-sizing: border-box;
+  box-sizing: content-box;
   line-height: 30.8px;
+  max-width: 100%;
+  text-align: center;
 }
 .seventhBodyP1 .space .hs .vs .QC div {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: -moz-fit-content;
   width: fit-content;
+  box-sizing: content-box;
+  color: var(--Primary-Color);
+}
+.seventhBodyP1 .space .hs .vs .QC .hm {
+  margin: 0 8px;
+  align-items: center;
+  color: var(--Primary-Color);
+}
+.seventhBodyP1 .space .hs .vs .QC .hm img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 .list1 li:before {

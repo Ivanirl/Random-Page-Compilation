@@ -476,7 +476,7 @@ rect{
         .hs{
 
             display: flex;
-            flex: row;
+            flex-direction: row;
             flex-wrap: wrap;
             column-gap: 32px;
             row-gap: 32px;
@@ -584,18 +584,34 @@ rect{
                 .QC{
                     font-size: 1.03em;
                     display: flex;
-                    flex-direction: column;
+                    //flex-direction: column;
                     flex-wrap: wrap;
-                    
+                    align-content: space-between;
                     row-gap: 20px;
                     justify-content: center;
-
-                    box-sizing: border-box;
+                    box-sizing: content-box;
                     line-height: 30.8px;
+                    max-width: 100%;
+                    text-align: center;
 
                     div{
-                        display: inline-block;
+                        display: flex;
+                        justify-content: center;
                         width: fit-content;
+                        box-sizing: content-box;
+                        color: var(--Primary-Color);
+                    }
+
+                    .hm{
+                        margin: 0 8px;
+                        align-items: center;
+                        color: var(--Primary-Color);
+
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 5px;
+                        }
                     }
                 }
                 
