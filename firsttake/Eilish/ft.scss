@@ -510,6 +510,7 @@ rect{
             .vs{
                 display: block;
                 width: fill;
+                padding-bottom: 2em;
 
                 h3{
                     font-size: 1.58em;
@@ -593,6 +594,7 @@ rect{
                     line-height: 30.8px;
                     max-width: 100%;
                     text-align: center;
+                    margin-top: 2em;
 
                     div{
                         display: flex;
@@ -600,17 +602,13 @@ rect{
                         width: fit-content;
                         box-sizing: content-box;
                         color: var(--Primary-Color);
-                    }
-
-                    .hm{
                         margin: 0 8px;
                         align-items: center;
-                        color: var(--Primary-Color);
 
                         img{
                             width: 20px;
                             height: 20px;
-                            margin-right: 5px;
+                            margin-right: 10px;
                         }
                     }
                 }
