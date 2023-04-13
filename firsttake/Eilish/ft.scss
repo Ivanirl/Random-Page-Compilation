@@ -579,6 +579,25 @@ rect{
                     }
 
                 }
+
+
+                .QC{
+                    font-size: 1.03em;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    
+                    row-gap: 20px;
+                    justify-content: center;
+
+                    box-sizing: border-box;
+                    line-height: 30.8px;
+
+                    div{
+                        display: inline-block;
+                        width: fit-content;
+                    }
+                }
                 
             }
         }

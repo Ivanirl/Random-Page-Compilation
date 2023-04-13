@@ -485,6 +485,21 @@ rect {
   background-image: url(../resources/service-4.png);
   background-size: contain;
 }
+.seventhBodyP1 .space .hs .vs .QC {
+  font-size: 1.03em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 30.8px;
+}
+.seventhBodyP1 .space .hs .vs .QC div {
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
 
 .list1 li:before {
   content: "";
