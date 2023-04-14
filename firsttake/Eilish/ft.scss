@@ -463,15 +463,33 @@ rect{
                 background-color: var(--Primary-Color2);
                 padding: 2.5em;
 
-                p{
+                div{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 5px;
 
+                    img{
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+
+                p{
+                    font-size: 1.1em;
+                    letter-spacing: -1px;
+                    line-height: 1.71em;
                 }
 
                 .p1{
+                    font-size: 1.3em;
+                }
 
+                .p2{
+                    font-size: 1em;
                 }
 
                 .p4{
+                    margin-top: 2em;
                     color: var(--Primary-Color);
                 }
             }

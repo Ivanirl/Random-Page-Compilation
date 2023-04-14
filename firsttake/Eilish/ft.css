@@ -389,7 +389,29 @@ rect {
   background-color: var(--Primary-Color2);
   padding: 2.5em;
 }
+.sixthBody .space .bottombitch .box2 div {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.sixthBody .space .bottombitch .box2 div img {
+  width: 18px;
+  height: 18px;
+}
+.sixthBody .space .bottombitch .box2 p {
+  font-size: 1.1em;
+  letter-spacing: -1px;
+  line-height: 1.71em;
+}
+.sixthBody .space .bottombitch .box2 .p1 {
+  font-size: 1.3em;
+}
+.sixthBody .space .bottombitch .box2 .p2 {
+  font-size: 1em;
+}
 .sixthBody .space .bottombitch .box2 .p4 {
+  margin-top: 2em;
   color: var(--Primary-Color);
 }
 
