@@ -529,6 +529,13 @@ rect {
   background-size: contain;
 }
 
+.read {
+  display: none;
+}
+
 .seventhBodyP2 .spacial {
+  display: flex;
+}
+.seventhBodyP2 .spacial .lowe ul {
   display: flex;
 }/*# sourceMappingURL=ft.css.map */
