@@ -533,14 +533,20 @@ rect {
   display: none;
 }
 
+.seventhBodyP2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2em 0;
+}
 .seventhBodyP2 .spacial {
   display: flex;
+  justify-content: center;
 }
-.seventhBodyP2 .spacial .lowe ul {
-  list-style-type: none;
-  display: flex;
-}
-.seventhBodyP2 .spacial .lowe ul li {
-  list-style: none;
+.seventhBodyP2 .spacial P {
   display: inline-block;
+  color: #908787;
+}
+.seventhBodyP2 .spacial P span {
+  color: #ffffff;
 }/*# sourceMappingURL=ft.css.map */

@@ -643,27 +643,25 @@ rect{
 }
 
 .seventhBodyP2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0;
 
     .spacial{
         display: flex;
+        justify-content: center;
 
-
-    .lowe{
-
-
-        ul{
-            list-style-type: none;
-            display: flex;
-
-            li{
-                list-style: none;
-                display: inline-block;
+        P{
+            display: inline-block;
+            color: #908787;
+            
+            span{
+                color: #ffffff;
             }
         }
+    }    
 
-        }
 
-        
-    }
 
 }
