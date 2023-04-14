@@ -537,6 +537,10 @@ rect {
   display: flex;
 }
 .seventhBodyP2 .spacial .lowe ul {
-  list-style: none;
+  list-style-type: none;
   display: flex;
+}
+.seventhBodyP2 .spacial .lowe ul li {
+  list-style: none;
+  display: inline-block;
 }/*# sourceMappingURL=ft.css.map */

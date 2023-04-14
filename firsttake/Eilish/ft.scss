@@ -652,8 +652,13 @@ rect{
 
 
         ul{
-            list-style: none;
+            list-style-type: none;
             display: flex;
+
+            li{
+                list-style: none;
+                display: inline-block;
+            }
         }
 
         }
