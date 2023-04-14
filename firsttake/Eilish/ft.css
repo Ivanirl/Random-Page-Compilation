@@ -389,6 +389,9 @@ rect {
   background-color: var(--Primary-Color2);
   padding: 2.5em;
 }
+.sixthBody .space .bottombitch .box2 .p4 {
+  color: var(--Primary-Color);
+}
 
 .seventhBodyP1 {
   background-color: var(--Primary-Color2);
