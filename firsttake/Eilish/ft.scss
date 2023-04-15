@@ -462,7 +462,7 @@ rect{
             column-gap: 22px;
             row-gap: 22px;
             .box2{
-
+                box-sizing: content-box;
                 background-color: var(--Primary-Color2);
                 padding: 2.5em;
 
