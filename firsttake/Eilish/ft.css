@@ -36,23 +36,6 @@ body {
        column-gap: 3em;
   height: 3em;
 }
-.navbar .space .warpped .navbtn {
-  background-color: #2f5a6f;
-  border-style: solid;
-  border-color: var(--Primary-Color);
-  color: var(--Primary-Color);
-  font-size: 17.6px;
-  padding: 14px 31px;
-  padding-bottom: 33px;
-  border-radius: 30px;
-  letter-spacing: 0.6px;
-  font-weight: lighter;
-  cursor: pointer;
-}
-.navbar .space .warpped .navbtn:hover {
-  background-color: var(--Primary-Color);
-  color: #03293b;
-}
 .navbar .space .butt {
   background-color: #2f5a6f;
   border-style: solid;
@@ -93,6 +76,25 @@ body {
 }
 .navbar .space nav ul li {
   margin: 5px;
+}
+
+.navbtn {
+  height: 3em;
+  background-color: #2f5a6f;
+  border-style: solid;
+  border-color: var(--Primary-Color);
+  color: var(--Primary-Color);
+  font-size: 17.6px;
+  padding: 14px 31px;
+  padding-bottom: 33px;
+  border-radius: 30px;
+  letter-spacing: 0.6px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.navbtn:hover {
+  background-color: var(--Primary-Color);
+  color: #03293b;
 }
 
 section {
@@ -574,4 +576,16 @@ rect {
 }
 .seventhBodyP2 .spacial P span {
   color: #ffffff;
+}
+
+@media only screen and (min-width: 767px) {
+  .navbar .space .butt {
+    display: none;
+  }
+  .navbar .space nav {
+    display: flex;
+  }
+  .navbar .space nav img {
+    display: none;
+  }
 }/*# sourceMappingURL=ft.css.map */
