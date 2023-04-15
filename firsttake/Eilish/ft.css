@@ -534,7 +534,7 @@ rect {
   width: fit-content;
   box-sizing: content-box;
   color: var(--Primary-Color);
-  margin: 0 16px;
+  margin: 0 8px;
   margin-left: 0;
   align-items: center;
 }
@@ -610,5 +610,8 @@ rect {
   }
   .seventhBodyP1 .space .hs .vs .QC {
     justify-content: left;
+  }
+  .seventhBodyP1 .space .hs .vs .QC div {
+    margin-right: 2em;
   }
 }/*# sourceMappingURL=ft.css.map */
