@@ -461,6 +461,7 @@ rect{
             flex-wrap: wrap;
             column-gap: 22px;
             row-gap: 22px;
+
             .box2{
                 box-sizing: content-box;
                 background-color: var(--Primary-Color2);
@@ -635,11 +636,12 @@ rect{
                         width: fit-content;
                         box-sizing: content-box;
                         color: var(--Primary-Color);
-                        margin: 0 8px;
+                        margin: 0 16px;
+                        margin-left: 0;
                         align-items: center;
 
                         a{
-                            letter-spacing: 1px;
+                            letter-spacing: 0px;
                         }
                         img{
                             width: 20px;
@@ -733,6 +735,24 @@ rect{
             }
         }
     }
+
+ 
+        .seventhBodyP1{
+
+            .space{
+        
+                .hs{
+
+                    .vs{
+
+                        .QC{
+                            justify-content: left;
+                        }
+                    }
+                }
+            }
+        }
+
 
 
 

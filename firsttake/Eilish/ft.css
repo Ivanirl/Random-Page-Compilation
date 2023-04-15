@@ -534,11 +534,12 @@ rect {
   width: fit-content;
   box-sizing: content-box;
   color: var(--Primary-Color);
-  margin: 0 8px;
+  margin: 0 16px;
+  margin-left: 0;
   align-items: center;
 }
 .seventhBodyP1 .space .hs .vs .QC div a {
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 .seventhBodyP1 .space .hs .vs .QC div img {
   width: 20px;
@@ -606,5 +607,8 @@ rect {
     align-items: center;
     -moz-column-gap: 5em;
          column-gap: 5em;
+  }
+  .seventhBodyP1 .space .hs .vs .QC {
+    justify-content: left;
   }
 }/*# sourceMappingURL=ft.css.map */
