@@ -579,11 +579,21 @@ rect {
 }
 
 @media only screen and (min-width: 767px) {
+  .navbar .space {
+    -moz-column-gap: 1em;
+         column-gap: 1em;
+  }
   .navbar .space .butt {
     display: none;
   }
   .navbar .space nav {
     display: flex;
+  }
+  .navbar .space nav ul {
+    padding: 0;
+  }
+  .navbar .space nav ul li {
+    padding: 0 10px;
   }
   .navbar .space nav img {
     display: none;

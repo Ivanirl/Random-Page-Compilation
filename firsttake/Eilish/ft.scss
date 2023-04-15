@@ -701,12 +701,22 @@ rect{
 
         .space{
 
+            column-gap: 1em;
+
             .butt{
                 display: none;
             }
 
             nav{
                 display: flex;
+
+                ul{
+                    padding: 0;
+
+                    li{
+                        padding: 0 10px;
+                    }
+                }
 
                 img{
                     display: none;
