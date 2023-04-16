@@ -757,8 +757,12 @@ rect{
                                 flex: content;
                                 text-decoration: double;
                                 speak-as: unquote($string: hhh);
+
+
                                 .divy{
+                                    text-transform: uppercase;
                                     display: flexbox;
+                                    hyphens: manual;
                                 }
 
 
