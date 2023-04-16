@@ -613,15 +613,7 @@ rect {
   }
   .seventhBodyP1 .space .hs .vs .QC div {
     margin-right: 2em;
-    flex: content;
-    -webkit-text-decoration: double;
-            text-decoration: double;
-    speak-as: hhh;
-  }
-  .seventhBodyP1 .space .hs .vs .QC div .divy {
-    text-transform: uppercase;
-    display: flexbox;
-    -webkit-hyphens: manual;
-            hyphens: manual;
+    display: flow-root;
+    content: counter(name);
   }
 }/*# sourceMappingURL=ft.css.map */
