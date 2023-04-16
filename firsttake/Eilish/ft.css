@@ -616,5 +616,9 @@ rect {
     flex: content;
     -webkit-text-decoration: double;
             text-decoration: double;
+    speak-as: hhh;
+  }
+  .seventhBodyP1 .space .hs .vs .QC div .divy {
+    display: flexbox;
   }
 }/*# sourceMappingURL=ft.css.map */
