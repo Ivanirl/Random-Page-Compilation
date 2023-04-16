@@ -613,7 +613,8 @@ rect {
   }
   .seventhBodyP1 .space .hs .vs .QC div {
     margin-right: 2em;
-    padding-left: 2;
-    text-align: start;
+    flex: content;
+    -webkit-text-decoration: double;
+            text-decoration: double;
   }
 }/*# sourceMappingURL=ft.css.map */
