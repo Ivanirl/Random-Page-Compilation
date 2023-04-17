@@ -620,4 +620,7 @@ rect {
   .firstBody .space {
     display: flex;
   }
+  .firstBody .space .columnsofzeus {
+    padding-left: 1em;
+  }
 }/*# sourceMappingURL=ft.css.map */
