@@ -781,4 +781,20 @@ rect{
         }
     }
 
+    .secondBody{
+        .space{
+            .smallerspace1{
+                display: flex;
+                align-items: center;
+                p{
+                    margin: 0;
+                }
+            }
+
+            .smallerspace2{
+                //display: flex;
+            }
+        }
+    }
+
 }
