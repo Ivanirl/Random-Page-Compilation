@@ -754,13 +754,7 @@ rect{
 
                                 //delete everything after this
                               
-                                display: flow-root;
-                                content: counter(name);
-
-                                empty-cells: show;
-                                padding: 309;
-                                direction: inherit;
-
+                                
                             }
                         }
                     }

@@ -613,10 +613,5 @@ rect {
   }
   .seventhBodyP1 .space .hs .vs .QC div {
     margin-right: 2em;
-    display: flow-root;
-    content: counter(name);
-    empty-cells: show;
-    padding: 309;
-    direction: inherit;
   }
 }/*# sourceMappingURL=ft.css.map */
