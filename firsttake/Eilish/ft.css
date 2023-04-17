@@ -615,4 +615,9 @@ rect {
   .seventhBodyP1 .space .hs .vs .QC div {
     margin-right: 2em;
   }
+}
+@media only screen and (min-width: 782px) {
+  .firstBody .space {
+    display: flex;
+  }
 }/*# sourceMappingURL=ft.css.map */
