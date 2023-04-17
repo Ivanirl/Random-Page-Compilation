@@ -30,6 +30,7 @@ body{
         margin: 0;
         column-gap: 3em;
         align-items: center;
+        justify-content: space-between;
         
 
         .warpped{
@@ -763,6 +764,11 @@ rect{
         }
 
 
+
+
+}
+
+@media only screen and (min-width:780px){
 
 
 }

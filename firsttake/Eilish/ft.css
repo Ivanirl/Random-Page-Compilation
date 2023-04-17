@@ -28,6 +28,7 @@ body {
   -moz-column-gap: 3em;
        column-gap: 3em;
   align-items: center;
+  justify-content: space-between;
 }
 .navbar .space .warpped {
   display: flex;
