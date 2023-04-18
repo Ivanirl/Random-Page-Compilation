@@ -786,6 +786,7 @@ rect{
             .smallerspace1{
                 display: flex;
                 align-items: center;
+
                 p{
                     margin: 0;
                 }
@@ -794,6 +795,10 @@ rect{
             .smallerspace2{
                 display: flex;
                 flex-wrap: wrap;
+                
+                .box2{
+                    display: contents;
+                }
             }
         }
     }

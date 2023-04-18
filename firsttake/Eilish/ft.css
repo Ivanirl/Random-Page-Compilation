@@ -635,4 +635,7 @@ rect {
     display: flex;
     flex-wrap: wrap;
   }
+  .secondBody .space .smallerspace2 .box2 {
+    display: contents;
+  }
 }/*# sourceMappingURL=ft.css.map */
