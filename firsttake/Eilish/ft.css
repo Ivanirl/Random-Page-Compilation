@@ -631,4 +631,8 @@ rect {
   .secondBody .space .smallerspace1 p {
     margin: 0;
   }
+  .secondBody .space .smallerspace2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=ft.css.map */

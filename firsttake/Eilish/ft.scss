@@ -792,7 +792,8 @@ rect{
             }
 
             .smallerspace2{
-                //display: flex;
+                display: flex;
+                flex-wrap: wrap;
             }
         }
     }
