@@ -808,6 +808,7 @@ rect{
                 column-gap: 32px;
                 box-sizing: border-box;
                 row-gap: 32px;
+                width: min-content;
                 
                 .box2{
                     padding: 2.5em;
