@@ -638,7 +638,7 @@ rect {
   }
   .secondBody .space .smallerspace2 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
     -moz-column-gap: 32px;
          column-gap: 32px;
@@ -647,5 +647,6 @@ rect {
   }
   .secondBody .space .smallerspace2 .box2 {
     padding: 2.5em;
+    box-sizing: border-box;
   }
 }/*# sourceMappingURL=ft.css.map */

@@ -803,7 +803,7 @@ rect{
 
             .smallerspace2{
                 display: flex;
-                flex-wrap: nowrap;
+                flex-wrap: wrap;
                 flex-direction: column;
                 column-gap: 32px;
                 box-sizing: border-box;
@@ -811,6 +811,7 @@ rect{
                 
                 .box2{
                     padding: 2.5em;
+                    box-sizing: border-box;
                 }
             }
         }
