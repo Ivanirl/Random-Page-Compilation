@@ -620,6 +620,7 @@ rect {
 @media only screen and (min-width: 782px) {
   .firstBody .space {
     display: flex;
+    justify-content: space-between;
   }
   .firstBody .space .columnsofzeus {
     padding-left: 1em;
@@ -627,6 +628,7 @@ rect {
   }
   .secondBody .space .smallerspace1 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
   .secondBody .space .smallerspace1 p {
@@ -634,7 +636,12 @@ rect {
   }
   .secondBody .space .smallerspace2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+    box-sizing: border-box;
+    row-gap: 32px;
   }
   .secondBody .space .smallerspace2 .box2 {
     padding: 2.5em;
