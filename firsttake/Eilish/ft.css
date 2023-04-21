@@ -183,6 +183,7 @@ rect {
   padding: 0px;
   margin: 10px 0 32px;
   padding-bottom: 2px;
+  box-sizing: content-box;
 }
 .secondBody .smallerspace2 .box .box2 {
   padding: 60px;
@@ -634,5 +635,8 @@ rect {
   .secondBody .space .smallerspace2 {
     display: flex;
     flex-wrap: wrap;
+  }
+  .secondBody .space .smallerspace2 .box2 {
+    padding: 2.5em;
   }
 }/*# sourceMappingURL=ft.css.map */

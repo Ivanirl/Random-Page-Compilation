@@ -127,6 +127,7 @@ rect{
 
     margin-top: 2.6em;
 
+
     .spaceycasey{
 
         padding-bottom: 3em;
@@ -213,6 +214,7 @@ rect{
             padding: 0px;
             margin: 10px 0 32px;
             padding-bottom: 2px;
+            box-sizing: content-box;
 
             .box2{
                 padding: 60px;
@@ -773,6 +775,7 @@ rect{
 
         .space{
             display: flex;
+            justify-content: space-between;
 
             .columnsofzeus{
                 padding-left: 1em;
@@ -794,10 +797,14 @@ rect{
 
             .smallerspace2{
                 display: flex;
-                flex-wrap: wrap;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                column-gap: 32px;
+                box-sizing: border-box;
+                row-gap: 32px;
                 
                 .box2{
-                    //display: contents;
+                    padding: 2.5em;
                 }
             }
         }
