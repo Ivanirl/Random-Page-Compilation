@@ -790,9 +790,14 @@ rect{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                column-gap: 3em;
 
                 p{
                     margin: 0;
+                }
+
+                .smallestspacelol{
+                    //width: 6em;
                 }
             }
 
