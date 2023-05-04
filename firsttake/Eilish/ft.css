@@ -143,7 +143,7 @@ rect {
 }
 
 .neymar {
-  height: 386.562px;
+  height: 25em;
 }
 
 .secondBody {
@@ -619,15 +619,26 @@ rect {
 }
 @media only screen and (min-width: 782px) {
   body {
-    font-size: 1.1em;
+    font-size: 1.3em;
+  }
+  section {
+    padding: 0 1.4em;
   }
   .firstBody .space {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 17em;
+  }
+  .firstBody .space .spaceycasey {
+    width: 35em;
+    padding-top: 2.7em;
   }
   .firstBody .space .columnsofzeus {
     padding-left: 1em;
     align-content: center;
+  }
+  .firstBody .space .columnsofzeus .neymar {
+    height: 29em;
   }
   .secondBody .space .smallerspace1 {
     display: flex;
