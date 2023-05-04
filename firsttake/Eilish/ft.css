@@ -635,6 +635,13 @@ rect {
     padding-bottom: 33px;
     border-width: 0.15em;
   }
+  .navbar {
+    padding-right: 2em;
+  }
+  .itadori {
+    -moz-column-gap: 6em;
+         column-gap: 6em;
+  }
   .firstBody .space {
     display: flex;
     justify-content: space-evenly;
