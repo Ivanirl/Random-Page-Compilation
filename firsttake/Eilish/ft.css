@@ -624,14 +624,35 @@ rect {
   section {
     padding: 0 1.4em;
   }
+  .navbtn {
+    height: 2.5em;
+    background-color: #2f5a6f;
+    border-style: solid;
+    border-color: var(--Primary-Color);
+    color: var(--Primary-Color);
+    font-size: 1.1em;
+    padding: 14px 31px;
+    padding-bottom: 33px;
+    border-width: 0.15em;
+  }
   .firstBody .space {
     display: flex;
     justify-content: space-evenly;
-    gap: 17em;
+    gap: 13em;
   }
   .firstBody .space .spaceycasey {
     width: 35em;
-    padding-top: 2.7em;
+    padding-top: 1em;
+  }
+  .firstBody .space .spaceycasey h1 {
+    font-size: 4em;
+    line-height: 1.5em;
+    margin-bottom: 0;
+  }
+  .firstBody .space .spaceycasey h3 {
+    font-size: 1.1em;
+    letter-spacing: -1;
+    line-height: 1.5em;
   }
   .firstBody .space .columnsofzeus {
     padding-left: 1em;
