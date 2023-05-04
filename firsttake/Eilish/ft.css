@@ -668,6 +668,9 @@ rect {
   .firstBody .space .columnsofzeus .neymar {
     height: 29em;
   }
+  .secondBody {
+    font-size: 1.1em;
+  }
   .secondBody .space .smallerspace1 {
     display: flex;
     justify-content: space-between;
