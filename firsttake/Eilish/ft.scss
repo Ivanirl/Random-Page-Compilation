@@ -793,6 +793,7 @@ rect{
 
     .navbar{
         padding-right: 2em;
+        padding-left: 1.2em;
     }
 
     .itadori{
@@ -845,10 +846,12 @@ rect{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                column-gap: 7em;
+                column-gap: 9em;
 
                 p{
                     margin: 0;
+                    font-size: 1.02em;
+                    letter-spacing: -1.5;
                 }
 
                 .smallestspacelol{
@@ -866,7 +869,7 @@ rect{
                // width: min-content;
                 
                 .box2{
-                    padding: 2.5em;
+                    padding: 6em;
                     box-sizing: border-box;
                     width: min-content;
                     height: min-content;
@@ -875,6 +878,8 @@ rect{
                 .box{
                     height: min-content;
                 }
+
+              
             }
         }
     }

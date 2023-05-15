@@ -637,6 +637,7 @@ rect {
   }
   .navbar {
     padding-right: 2em;
+    padding-left: 1.2em;
   }
   .itadori {
     -moz-column-gap: 6em;
@@ -675,11 +676,13 @@ rect {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -moz-column-gap: 7em;
-         column-gap: 7em;
+    -moz-column-gap: 9em;
+         column-gap: 9em;
   }
   .secondBody .space .smallerspace1 p {
     margin: 0;
+    font-size: 1.02em;
+    letter-spacing: -1.5;
   }
   .secondBody .space .smallerspace2 {
     display: flex;
@@ -691,7 +694,7 @@ rect {
     row-gap: 32px;
   }
   .secondBody .space .smallerspace2 .box2 {
-    padding: 2.5em;
+    padding: 6em;
     box-sizing: border-box;
     width: -moz-min-content;
     width: min-content;

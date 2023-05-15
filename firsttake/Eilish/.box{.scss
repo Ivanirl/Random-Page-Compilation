@@ -1,0 +1,34 @@
+  .box{
+                    margin: 10px 0 32px;
+                    padding-bottom: 2px;
+                    //box-sizing: content-box;
+        
+                    .box2{
+                        padding: 60px;
+                        background-color: var(--Primary-Color2);
+        
+                        h3{
+                            font-size: 1.76em;
+                            margin-top: 1.1em;
+                            line-height: 1.39em;
+                            letter-spacing: 0;
+                            margin-bottom: 0.8em;
+                        }
+        
+                        p{
+                            line-height: 2em;
+                            margin-top: 0.5em;
+                            font-size: 1em
+                        }
+        
+                        .openopen{
+                            font-size: 1.1em;
+                            letter-spacing: 0;
+                            font-weight: 600;
+                            color: var(--Primary-Color);
+                            margin-bottom: 0;
+                        }
+        
+                    }
+                    
+                }
