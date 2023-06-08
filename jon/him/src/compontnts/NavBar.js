@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../assets/img/logo.svg"
 import navIcon1 from "../assets/img/nav-icon1.svg"
 import navIcon2 from "../assets/img/nav-icon2.svg"
-import navIcon2 from "../assets/img/nav-icon3.svg"
+import navIcon3 from "../assets/img/nav-icon3.svg"
 
 
 
@@ -17,7 +17,7 @@ import { useEffect } from "react";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, setScrolled] = useState(flase)
+  const [scrolled, setScrolled] = useState(false)
 
   useEffect(()=>{
     const onScroll = () => {
@@ -59,10 +59,10 @@ function NavBar() {
                 <img src={navIcon1} alt="hm" />
               </a>
               <a href="#">
-                <img src={navIcon1} alt="hm" />
+                <img src={navIcon2} alt="hm" />
               </a>
               <a href="#">
-                <img src={navIcon1} alt="hm" />
+                <img src={navIcon3} alt="hm" />
               </a>
               <button
                 className="vvd"
